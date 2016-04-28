@@ -11,13 +11,13 @@ source:
 
 build:
     skip: True # [win]
-    number: 0
+    number: 1
 
 requirements:
     build:
-        - zlib
+        - zlib 1.2*
     run:
-        - zlib
+        - zlib 1.2*
 
 test:
     commands:
