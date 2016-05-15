@@ -6,11 +6,11 @@ package:
 
 source:
     fn: rsl.v{{ version }}.tar.gz
-    url: ftp://trmm-fc.gsfc.nasa.gov/software/rsl-v{{ version }}.tar.gz
+    url: https://github.com/conda-forge/trmm_rsl-feedstock/releases/download/source_v{{ version }}/rsl-v{{ version }}.tar.gz
     md5: a2fcc2a30fb5d1fac7ca9ea9e1c6b04e
 
 build:
-    skip: True # [win]
+    skip: True  # [win]
     number: 0
 
 requirements:
