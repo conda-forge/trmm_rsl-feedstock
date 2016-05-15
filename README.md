@@ -5,7 +5,7 @@ Home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
 
 Package license: LGPL
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: TRMM Radar Software Library
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/trmm_rsl-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/trmm_rsl-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/trmm_rsl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/trmm_rsl-feedstock) 
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/trmm_rsl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/trmm_rsl-feedstock/branch/master)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/trmm-rsl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/trmm-rsl-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trmm_rsl/badges/version.svg)](https://anaconda.org/conda-forge/trmm_rsl)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trmm_rsl/badges/downloads.svg)](https://anaconda.org/conda-forge/trmm_rsl)
 
 
 Updating trmm_rsl-feedstock
