@@ -3,7 +3,7 @@ About trmm_rsl
 
 Home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
 
-Package license: LGPL
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trmm_rsl-feedstock/blob/main/LICENSE.txt)
 
@@ -177,5 +177,6 @@ Feedstock Maintainers
 =====================
 
 * [@jjhelmus](https://github.com/jjhelmus/)
+* [@mgrover1](https://github.com/mgrover1/)
 * [@zssherman](https://github.com/zssherman/)
 
