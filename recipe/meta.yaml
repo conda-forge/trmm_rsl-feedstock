@@ -21,9 +21,9 @@ requirements:
         - cython                                 # [build_platform != target_platform]
         - numpy                                  # [build_platform != target_platform]
         - pybind11                               # [build_platform != target_platform]
-        - zlib 1.2.*
+        - zlib
     run:
-        - zlib 1.2.*
+        - zlib
 
 test:
     commands:
