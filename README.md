@@ -3,7 +3,7 @@ About trmm_rsl
 
 Home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
 
-Package license: BSD-3-Clause
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trmm_rsl-feedstock/blob/main/LICENSE.txt)
 
