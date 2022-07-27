@@ -16,6 +16,7 @@ build:
 requirements:
     build:
         - zlib 1.2.*
+        - {{ compiler('c') }}
     run:
         - zlib 1.2.*
 
