@@ -7,3 +7,5 @@ if [ `uname` == Linux ]; then
 fi
 chmod +x configure
 ./configure  --prefix=$PREFIX
+make
+make install

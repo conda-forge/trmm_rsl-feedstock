@@ -17,6 +17,7 @@ requirements:
     build:
         - zlib 1.2.*
         - {{ compiler('c') }}
+        - make
     run:
         - zlib 1.2.*
 
@@ -30,8 +31,8 @@ test:
 
 about:
     home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
-    license: BSD-3-Clause
-    license_family: BSD
+    license: GNU-Library-General-Public-License
+    license_family: GNU
     license_file: LICENSE.txt
     summary: 'TRMM Radar Software Library'
 
