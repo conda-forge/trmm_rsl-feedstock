@@ -16,6 +16,7 @@ build:
 requirements:
     build:
         - zlib 1.2.*
+        - gnuconfig  # [unix]
         - {{ compiler('c') }}
         - make
         - flex
