@@ -11,11 +11,14 @@ source:
 
 build:
     skip: True  # [win]
-    number: 3
+    number: 4
 
 requirements:
     build:
         - zlib 1.2.*
+        - {{ compiler('c') }}
+        - make
+        - flex
     run:
         - zlib 1.2.*
 
@@ -29,7 +32,9 @@ test:
 
 about:
     home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
-    license: LGPL
+    license: GPL-2.0-or-later
+    license_family: GPL3
+    license_file: LICENSE.txt
     summary: 'TRMM Radar Software Library'
 
 extra:
