@@ -29,7 +29,9 @@ test:
 
 about:
     home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
-    license: LGPL
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
     summary: 'TRMM Radar Software Library'
 
 extra:
