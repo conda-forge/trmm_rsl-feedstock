@@ -17,12 +17,12 @@ requirements:
     build:
         - zlib 1.2.*
         - gnuconfig  # [unix]
-        - {{ compiler('c') }} # [build_platform != target_platform]
-        - numpy # [build_platform != target_platform]
+        - {{ compiler('c') }}  # [build_platform != target_platform]
         - make
         - flex
     run:
         - zlib 1.2.*
+        - numpy  # [build_platform != target_platform]
 
 test:
     commands:
