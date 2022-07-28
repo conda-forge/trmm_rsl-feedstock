@@ -170,5 +170,6 @@ Feedstock Maintainers
 =====================
 
 * [@jjhelmus](https://github.com/jjhelmus/)
+* [@mgrover1](https://github.com/mgrover1/)
 * [@zssherman](https://github.com/zssherman/)
 
