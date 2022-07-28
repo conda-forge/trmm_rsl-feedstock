@@ -8,6 +8,6 @@ if [ `uname` == Linux ]; then
     export CFLAGS="${CFLAGS} -Wl,-z,defs"
 fi
 chmod +x configure
-./configure  --prefix=$PREFIX
+./configure  --prefix=$BUILD_PREFIX
 make
 make install
