@@ -1,6 +1,7 @@
 #!/bin/bash
 # Get an updated config.sub and config.guess
-cp $BUILD_PREFIX/share/gnuconfig/config.* .
+cp $BUILD_PREFIX/share/gnuconfig/config.sub .
+cp $BUILD_PREFIX/share/gnuconfig/config.guess .
 
 if [ `uname` == Linux ]; then
     # Enable -z def linked flag
@@ -8,6 +9,6 @@ if [ `uname` == Linux ]; then
     export CFLAGS="${CFLAGS} -Wl,-z,defs"
 fi
 chmod +x configure
-./configure  --prefix=$BUILD_PREFIX
+./configure  --prefix=$PREFIX
 make
 make install
