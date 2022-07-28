@@ -8,6 +8,7 @@ if [ `uname` == Linux ]; then
     # linking will fail when undefined symbols are present
     export CFLAGS="${CFLAGS} -Wl,-z,defs"
 fi
+echo "${CFLAGS}"
 chmod +x configure
 ./configure  --prefix=$PREFIX
 make
