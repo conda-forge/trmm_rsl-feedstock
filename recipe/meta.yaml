@@ -13,7 +13,7 @@ build:
     skip: True  # [win]
     number: 5
     script_env:
-        - CFLAGS="${CFLAGS} -std=c90 -Wno-implicit-function-declaration"  # [osx]
+        - CFLAGS="${CFLAGS} --std=c90"  # [osx]
 
 requirements:
     build:
