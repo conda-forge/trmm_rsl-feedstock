@@ -12,7 +12,7 @@ elif [ `uname` == osx ]; then
     export L="/usr/local/lib"
 fi
 echo "${CFLAGS}"
-export CFLAGS="${CFLAGS} -std=c90"
+export CC_OPT_FLAGS="-std=c90,-Wno-implicit-function-declaration"
 chmod +x configure
 ./configure --prefix=$PREFIX
 make
