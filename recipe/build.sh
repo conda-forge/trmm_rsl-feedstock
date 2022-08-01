@@ -10,6 +10,6 @@ if [ `uname` == Linux ]; then
 fi
 echo "${CFLAGS}"
 chmod +x configure
-./configure  --prefix=$PREFIX
+./configure CFLAGS="--std=c90 -Wno-implicit-function-declaration" --prefix=$PREFIX
 make
 make install
