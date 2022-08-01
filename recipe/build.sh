@@ -9,6 +9,7 @@ if [ `uname` == Linux ]; then
     export CFLAGS="${CFLAGS} -Wl,-z,defs"
 elif [ `uname` == osx ]; then
     export CFLAGS="${CFLAGS} --std=c90 -Wno-implicit-function-declaration"
+    export L="  "
 fi
 echo "${CFLAGS}"
 chmod +x configure
