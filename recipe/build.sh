@@ -13,7 +13,7 @@ elif [ `uname` == osx ]; then
 fi
 echo "${CFLAGS}"
 export CFLAGS="${CFLAGS} -Wl,-z,defs"
-echo "${CFLAGS}"
+echo "CFLAGS: ${CFLAGS}"
 chmod +x configure
 ./configure --prefix=$PREFIX
 make
