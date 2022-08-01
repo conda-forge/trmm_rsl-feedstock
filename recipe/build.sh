@@ -12,7 +12,7 @@ elif [ `uname` == osx ]; then
     export L="/usr/local/lib"
 fi
 echo "${CFLAGS}"
-CFLAGS="${CFLAGS} -std=c90"
+export CFLAGS="${CFLAGS} -std=c90"
 chmod +x configure
 ./configure --prefix=$PREFIX
 make
