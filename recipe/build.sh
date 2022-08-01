@@ -8,12 +8,10 @@ if [ `uname` == Linux ]; then
     # linking will fail when undefined symbols are present
     export CFLAGS="${CFLAGS} -Wl,-z,defs"
 elif [ `uname` == osx ]; then
-    export CFLAGS="${CFLAGS} --std=c90 -Wno-implicit-function-declaration,-z"
+    export CFLAGS="${CFLAGS} --std=c90,-Wno-implicit-function-declaration,-z"
     export L="/usr/local/lib"
 fi
 echo "${CFLAGS}"
-export CFLAGS="${CFLAGS} -Wl,-z,defs"
-echo "CFLAGS: ${CFLAGS}"
 chmod +x configure
 ./configure --prefix=$PREFIX
 make
