@@ -16,12 +16,14 @@ build:
 
 requirements:
     build:
-        - zlib 1.2.*
+        - zlib
         - {{ compiler('c') }}
         - make
         - flex
+        - bzip2
     run:
-        - zlib 1.2.*
+        - zlib
+        - bzip2
 
 test:
     commands:
