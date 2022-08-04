@@ -1,4 +1,4 @@
-{% set version = "1.49" %}
+{% set version = "1.50" %}
 
 package:
     name: trmm_rsl
@@ -7,11 +7,12 @@ package:
 source:
     fn: rsl.v{{ version }}.tar.gz
     url: https://github.com/conda-forge/trmm_rsl-feedstock/releases/download/source_v{{ version }}/rsl-v{{ version }}.tar.gz
-    md5: a2fcc2a30fb5d1fac7ca9ea9e1c6b04e
+    sha256: 9e4e3fe45eb1e4aebea63255d4956b00eb69527044a83f182cde1b43510bd342
 
 build:
     skip: True  # [win]
-    number: 5
+    number: 0
+    string: ''
 
 requirements:
     build:
