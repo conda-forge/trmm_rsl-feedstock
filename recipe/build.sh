@@ -7,5 +7,6 @@ if [ `uname` == Linux ]; then
 fi
 chmod +x configure
 ./configure  --prefix=$PREFIX
+sudo apt -y install libbz2-dev
 make
 make install
