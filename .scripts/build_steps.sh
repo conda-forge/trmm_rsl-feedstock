@@ -47,7 +47,7 @@ source run_conda_forge_build_setup
 # "recipe/yum_requirements.txt" file. After updating that file,
 # run "conda smithy rerender" and this line will be updated
 # automatically.
-/usr/bin/sudo -n yum install -y libzip2-devel
+/usr/bin/sudo -n yum install -y bzip2-devel
 
 
 # make the build number clobber
