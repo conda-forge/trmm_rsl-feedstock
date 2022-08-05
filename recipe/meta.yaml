@@ -19,6 +19,7 @@ requirements:
     - {{ compiler('c') }}
     - make
     - flex
+    - bzip2
   run:
     - zlib 1.2.*
 
