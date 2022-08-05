@@ -6,6 +6,6 @@ if [ `uname` == Linux ]; then
     export CFLAGS="${CFLAGS} -Wl,-z,defs"
 fi
 chmod +x configure
-./configure  --prefix=$PREFIX CXXFLAGS="-I$PREFIX/include -L$PREFIX/lib $CXXFLAGS"
+./configure  --prefix=$PREFIX
 make
 make install
