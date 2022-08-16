@@ -1,7 +1,7 @@
 About trmm_rsl
 ==============
 
-Home: http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
+Home: 
 
 Package license: GPL-2.0-or-later
 
