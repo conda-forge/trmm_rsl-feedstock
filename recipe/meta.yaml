@@ -17,15 +17,15 @@ build:
 
 requirements:
     build:
-        - zlib 1.2.*
         - gnuconfig  # [unix]
         - {{ compiler('c') }}
         - cmake
         - make
         - flex
+    host:
+        - zlib
     run:
-        - zlib 1.2.*
-        - numpy  # [build_platform != target_platform]
+        - zlib
 
 test:
     commands:
