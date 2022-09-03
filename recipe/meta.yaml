@@ -24,8 +24,6 @@ requirements:
         - flex
     host:
         - zlib
-    run:
-        - zlib
 
 test:
     commands:
