@@ -12,15 +12,18 @@ source:
 build:
     skip: True  # [win]
     number: 5
+    script_env:
+        - CFLAGS="${CFLAGS} -std=c90 -Wno-implicit-function-declaration"  # [osx]
 
 requirements:
     build:
-        - zlib 1.2.*
+        - gnuconfig  # [unix]
         - {{ compiler('c') }}
+        - cmake
         - make
         - flex
-    run:
-        - zlib 1.2.*
+    host:
+        - zlib
 
 test:
     commands:
