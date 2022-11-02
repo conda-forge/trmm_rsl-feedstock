@@ -11,16 +11,16 @@ source:
 
 build:
     skip: True  # [win]
-    number: 5
+    number: 6
 
 requirements:
     build:
-        - zlib 1.2.*
-        - {{ compiler('c') }}
-        - make
-        - flex
-    run:
-        - zlib 1.2.*
+      - gnuconfig  # [unix]
+      - {{ compiler('c') }}
+      - make
+      - flex
+    host:
+      - zlib
 
 test:
     commands:
